@@ -20,7 +20,6 @@ import "antd/dist/antd.css";
 
 /** AWS config */
 import AppSyncConfig from "./aws-exports";
-import DataList from "./components/DataList";
 
 const config = {
 	url: AppSyncConfig.aws_appsync_graphqlEndpoint,
