@@ -1,4 +1,4 @@
-# GraphQl-React-app
+# [GraphQl-React-app](https://blog.logrocket.com/set-up-graphql-api-using-serverless-react/)
 
 This is covering Serverless Framework to deploy a sample serverless project to `AWS` with `AWS AppSync`, `AWS Lambda`, and `DynamoDB` integrations.
 
