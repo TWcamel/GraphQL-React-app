@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 import { createAuthLink } from "aws-appsync-auth-link";
 import { createSubscriptionHandshakeLink } from "aws-appsync-subscription-link";
 import { AUTH_TYPE } from "aws-appsync";
+
 import {
 	ApolloProvider,
 	ApolloClient,
