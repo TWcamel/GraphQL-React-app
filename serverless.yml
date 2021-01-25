@@ -52,7 +52,8 @@ custom:
 
   appSync: # appsync plugin configuration
     name: ${self:service}-appsync-${self:provider.stage}
-    authenticationType: API_KEY # since we don't have user login for now
+    authenticationType: A
+    I_KEY # since we don't have user login for now
     dataSources:
       - type: AMAZON_DYNAMODB
         name: PrimaryTable
