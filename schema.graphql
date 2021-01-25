@@ -15,7 +15,7 @@ input PostUpdateInput {
 }
 
 type Mutation {
-    createdPost(input: PostCreateInput): Post
+    createPost(input: PostCreateInput): Post
     updatePost(input: PostUpdateInput): Post
     deletePost(id: ID!): Post
 }

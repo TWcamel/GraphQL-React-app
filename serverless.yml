@@ -63,9 +63,31 @@ custom:
     mappingTemplates:
       - dataSource: PrimaryTable
         type: Mutation
-        field: createdPost
+        field: createPost
         request: "create_post/request.vtl"
         response: "common-item-response.vtl"
+      - dataSource: PrimaryTable
+        type: Mutation
+        field: updatePost
+        request: "update_post/request.vtl"
+        response: "common-item-response.vtl"
+      - dataSource: PrimaryTable
+        type: Mutation
+        field: deletePost
+        request: "delete_post/request.vtl"
+        response: "common-item-response.vtl"
+      - dataSource: PrimaryTable
+        type: Query
+        field: getPost
+        request: "get_post/request.vtl"
+        response: "common-item-response.vtl"
+      - dataSource: PrimaryTable
+        type: Query
+        field: listPosts
+        request: "list_posts/request.vtl"
+        response: "common-items-response.vtl"
+
+
 
 resources:
   - ${file(./resources/appsync-dynamodb-role.yml)}
