@@ -9,9 +9,9 @@ This is covering Serverless Framework to deploy a sample serverless project to `
   - Understanding of [Cloud Formation Templates (CFS)](https://aws.amazon.com/tw/cloudformation/resources/templates/) 
   - Concept of [yarn](https://classic.yarnpkg.com/en/docs/getting-started)
 
-TODO:
+- TODO:
   - [ ] Relayout frontend
   - [ ] Add scss stylesheet
   - [ ] Add user auth athentication
   - [ ] Landing page (loggin view)
-  - [ ] Dashboard view
+  - [ ] Dashboard view with setting function
