@@ -1,4 +1,4 @@
-# GraphQl-React-app
+# GraphQl-React-app (WIP)
 
 This is covering Serverless Framework to deploy a sample serverless project to `AWS` with `AWS AppSync`, `AWS Lambda`, and `DynamoDB` integrations.
 
